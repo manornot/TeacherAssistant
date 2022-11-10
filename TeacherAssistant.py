@@ -47,7 +47,7 @@ coloredlogs.install(level=logging.DEBUG, logger=logger,
 ex_hw_file_format = 'PA\d_HW\d+_(?!review)\w+(\.\w+)$'
 ex_review_file_format = 'PA\d_HW\d+_review_\d+(\.\w+)$'
 #ex_hw_file_format = 'PA3_HW\d.*\.\w+$'
-ex_extract_name = '(?<=PA3_HW\d_).+(?=(\.\w+)$)'
+ex_extract_name = '(?<=PA3_HW\d+_).+(?=(\.\w+)$)'
 intents = discord.Intents.default()
 #intents.presences = True
 #intents.members = True
